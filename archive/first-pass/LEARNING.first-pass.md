@@ -1,0 +1,56 @@
+# My AI Engineering Path
+<!-- Managed by the ai-engineering-from-scratch learning skills.
+     Repo: https://github.com/rohitg00/ai-engineering-from-scratch -->
+
+## Mission
+To become a professional AI engineer, with the necessary skillset to be able to ship AI products effectively and efficiently. Build goal: AI products.
+
+## Placement
+- Date: 2026-10-26
+- Score: self-selected
+- Entry point: Phase 0: Setup & Tooling
+- Pace: ~30 hours/week
+
+## Path
+| Phase | Name | Status | Est. hours |
+|-------|------|--------|------------|
+| 0 | Setup & Tooling | Do | 16 |
+| 1 | Math Foundations | Do | 23 |
+| 2 | ML Fundamentals | Do | 26 |
+| 3 | Deep Learning Core | Do | 15 |
+| 4 | Computer Vision | Do | 27 |
+| 5 | NLP — Foundations to Advanced | Do | 30 |
+| 6 | Speech & Audio | Do | 18 |
+| 7 | Transformers Deep Dive | Do | 14 |
+| 8 | Generative AI | Do | 14 |
+| 9 | Reinforcement Learning | Do | 13 |
+| 10 | LLMs from Scratch | Do | 26 |
+| 11 | LLM Engineering | Do | 19 |
+| 12 | Multimodal AI | Do | 65 |
+| 13 | Tools & Protocols | Do | 76 |
+| 14 | Agent Engineering | Do | 55 |
+| 15 | Autonomous Systems | Do | 20 |
+| 16 | Multi-Agent & Swarms | Do | 28 |
+| 17 | Infrastructure & Production | Do | 34 |
+| 18 | Ethics, Safety & Alignment | Do | 31 |
+| 19 | Capstone Projects | Do | 620 |
+
+## Progress log
+| Date | Lesson | Quiz | Note |
+|------|--------|------|------|
+| 2026-10-27 | 0/01 Dev Environment | 3/3 | Correctly traced the layer order and dot product; clarify that uv manages environments and packages, while NumPy/PyTorch are libraries. |
+| 2026-10-28 | 0/02 Git & Collaboration | 3/3 | Correctly distinguished staging, committing, and pushing; identified branch creation and why model checkpoints belong in `.gitignore`. |
+| 2026-10-29 | 0/03 GPU Setup & Cloud | 3/3 | Correctly described CPU fallback and asynchronous GPU timing; revisit GB-to-parameter unit conversion in the fp16 VRAM estimate. |
+| 2026-10-29 | 0/04 APIs & Keys | 3/3 | Identified request bodies, environment-based secret handling, byte encoding, and the difference between authentication failures and rate limits. |
+| 2026-10-29 | 0/05 Jupyter Notebooks | 3/3 | Correctly distinguished `%timeit` from `%%time`, identified hidden state from out-of-order cells, and explained when to move code into scripts. |
+| 2026-10-29 | 0/06 Python Environments | 3/3 | Identified the active interpreter path, explained pip/conda dependency tracking conflicts, and recognized CUDA driver/build incompatibility. |
+| 2026-10-30 | 0/07 Docker for AI | 3/3 | Explained Compose service discovery and volume persistence; revisit image vs. container, `WORKDIR` vs. port publishing, and when a CPU-only base image is preferable. |
+| 2026-11-08 | 0/08 Editor Setup | 3/3 | Identified Remote SSH, notebook output scrolling, and basic type checking; explained that format-on-save applies consistent layout. |
+| 2026-11-09 | 0/09 Data Management | 2/3 | Correctly explained streaming and when DVC helps reproduce experiments; review why Parquet's columnar storage improves size and read speed. |
+| 2026-11-10 | 0/09 Data Management (redo) | 3/3 | Explained Parquet columnar storage, on-demand streaming, and DVC for reproducible data versions; walked through all four exercises. |
+
+## In progress
+- None
+
+## Review queue
+<empty for now; learn adds lessons the quizzes flag>
