@@ -6,6 +6,6 @@ This log tracks the fresh pass. Archived first-pass notes are background only.
 
 | Date | Lesson | Status | What I did | What felt shaky / next step |
 |------|--------|--------|------------|-----------------------------|
-| 2026-11-20 | 00/01 Dev Environment | In progress | Reviewed the four environment layers and why setup proceeds bottom-up. Identified the layer order. After hints, identified AI/ML libraries as the source of a missing `numpy` import; using Ubuntu. | Initially attributed `ModuleNotFoundError` to system foundations, then package managers. Revisit how an import failure points to a library missing from the active Python environment. Next: inspect existing versions and `.venv` before considering changes. Requested a no-sudo GitHub CLI install; install output is pending. |
+| 2026-11-21 | 00/01 Dev Environment | In progress | Reviewed the four environment layers, checked Ubuntu Python 3.12.3, and installed `uv` 0.13.9 under `~/.local/bin` without `sudo`. Sourced its environment script and confirmed `uv` resolves from `PATH`. | Initially attributed a missing `uv` command to AI/ML libraries, then correctly identified the package-manager layer after a hint. No `.venv` was found in the checked directory. Next: decide whether to create one, then continue Lesson 01. GitHub CLI install output remains pending. |
 
 No lesson quiz has been completed yet. No flashcards are recorded until the lesson is completed.
