@@ -6,6 +6,6 @@ This log tracks the fresh pass. Archived first-pass notes are background only.
 
 | Date | Lesson | Status | What I did | What felt shaky / next step |
 |------|--------|--------|------------|-----------------------------|
-| 2026-11-21 | 00/01 Dev Environment | In progress | Reviewed the four environment layers, checked Ubuntu Python 3.12.3, and installed `uv` 0.13.9 under `~/.local/bin` without `sudo`. Sourced its environment script and confirmed `uv` resolves from `PATH`. | Initially attributed a missing `uv` command to AI/ML libraries, then correctly identified the package-manager layer after a hint. No `.venv` was found in the checked directory. Next: decide whether to create one, then continue Lesson 01. GitHub CLI install output remains pending. |
+| 2026-11-23 | 00/01 Dev Environment | In progress | On a fresh computer, installed `uv` 0.13.9 in `~/.local/bin` without `sudo`; startup files were not writable, so sourced `~/.local/bin/env` manually. Created and activated `.venv`, then confirmed Python resolves from it. | Remember to source `~/.local/bin/env` in a new terminal. Next: install NumPy, Matplotlib, and Jupyter into `.venv`, then verify imports; that command has not yet been run or confirmed. |
 
 No lesson quiz has been completed yet. No flashcards are recorded until the lesson is completed.
